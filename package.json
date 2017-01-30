@@ -1,0 +1,29 @@
+{
+  "name": "ol3-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --progress --port 8080"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/openlayers": "^3.20.4",
+    "font-awesome": "^4.7.0",
+    "openlayers": "^3.20.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.4.1",
+    "awesome-typescript-loader": "3.0.0-beta.18",
+    "css-loader": "0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "file-loader": "0.10.0",
+    "html-loader": "0.4.4",
+    "html-webpack-plugin": "2.28.0",
+    "style-loader": "0.13.1",
+    "typescript": "2.1.5",
+    "webpack": "2.2.0",
+    "webpack-dev-server": "2.2.0"
+  }
+}
